@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23252C;
+  font-family: 'Inter', sans-serif;
+}
+
+main {
+  width: 317px;
+  margin: 2rem auto;
+}
+
+.header {
+  background-color: #1A1B21;
+  color: #ffffff;
+  text-align: center;
+}
+
+.header-nombre {
+  padding-block: 1.2rem;
+}
+
+.header-nombre > :where(:not(:last-child)) {
+  margin-bottom: 0.1rem;
+}
+a {
+  color: inherit;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #F3BF99;
+}
+
+.ver-enlace {
+  font-size: 0.6rem;
+}
+
