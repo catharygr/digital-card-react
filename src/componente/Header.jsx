@@ -12,9 +12,9 @@ export default function Header() {
       <h2>Frontend Developer</h2>
       <a className='ver-enlace' href="#">laurasmith.website</a>
       </div>
-      <div>
-        <button><img src={mailIcon}/>Email</button>
-        <button><img src={linkenlnIcon}/>Linkedln</button>
+      <div className='btn'>
+        <button className='btn-mail'><img  src={mailIcon}/><p>Email</p></button>
+        <button className='btn-linkedin'><img  src={linkenlnIcon}/><p>Linkedln</p></button>
       </div>
 
     </header>

@@ -14,6 +14,8 @@ body {
 main {
   width: 317px;
   margin: 2rem auto;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .header {
@@ -46,5 +48,64 @@ h2 {
 
 .ver-enlace {
   font-size: 0.6rem;
+  text-decoration: none;
 }
 
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 247px;
+  margin: 0 auto 0;
+}
+
+.btn img {
+  margin-right: 5px;
+}
+
+.btn-mail,
+.btn-linkedin {
+  display: flex;
+  justify-content: center;
+  flex-basis: 115px;
+  font-size: 0.9rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-mail {
+  background-color: #ffffff;
+}
+
+.btn-linkedin {
+  background-color: #5093E2;
+  color: #ffffff ; 
+}
+
+/* Contenido */
+
+.contenido-container {
+  background-color: #1A1B21;
+  color: #ffffff;
+  padding: 1px 35px;
+}
+
+.contenido-container h2 {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 2rem 0 0.4rem;
+}
+
+.contenido-container p {
+  font-size: 0.6rem;
+}
+
+footer {
+  background-color: #1A1B21;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem 0 1rem;
+}
